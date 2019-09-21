@@ -1,8 +1,9 @@
 @charset "utf-8";
 /*------------------------------------*\
-    $RESET
+    Browser stylesheets are sometimes
+    pain in the ...
 \*------------------------------------*/
-/* A more considered reset; more of a restart... As per: csswizardry.com/2011/10/reset-restarted */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr,
 a, abbr, address, cite, code,
@@ -32,6 +33,7 @@ table {
 strong, b, mark {
     font-weight: bold;
     font-style: inherit;
+    color: black;
 }
 em, i, cite, q, address, dfn, var {
     font-style: italic;
@@ -65,9 +67,6 @@ select, option, optgroup,
 textarea {
     font: inherit;
 }
-
-
-
 
 
 /*------------------------------------*\
@@ -115,35 +114,22 @@ body {
                 width: 20px;
                 height: 17px;
             }
-            .facebook {
-                background-image: url(../img/facebook.png);
-                width: 10px;
-                height: 19px;
-            }
-            .googleplus {
-                background-image: url(../img/googleplus.png);
-                width: 21px;
-                height: 19px;
-            }
+            
             .dribbble {
                 background-image: url(../img/dribbble.png);
                 width: 21px;
                 height: 19px;
             }
-            .instagram {
-                background-image: url(../img/instagram.png);
+            .linkedin {
+                background-image: url(../img/linkedin.png);
                 width: 20px;
+                height: 17px;
+            }
+            .github {
+                background-image: url(../img/github.png);
+                width: 21px;
                 height: 19px;
             }
-            .flickr {
-                background-image: url(../img/flickr.png);
-                width: 20px;
-                height: 9px;
-            }
-
-
-
-
 
 /*------------------------------------*\
     $TYPOGRAPHY
@@ -171,9 +157,6 @@ a:hover, a:focus {
     -ms-transition: color 0.2s ease;
     transition: color 0.2s ease;
 }
-
-
-
 
 
 /*------------------------------------*\
@@ -208,14 +191,6 @@ Copyright (c) 2012 Dan Eden
     -ms-animation-duration: 1s;
     -o-animation-duration: 1s;
     animation-duration: 1s;
-}
-
-.animated.hinge {
-    -webkit-animation-duration: 2s;
-    -moz-animation-duration: 2s;
-    -ms-animation-duration: 2s;
-    -o-animation-duration: 2s;
-    animation-duration: 2s;
 }
 
 @-webkit-keyframes bounceInDown {
@@ -298,9 +273,6 @@ Copyright (c) 2012 Dan Eden
 }
 
 
-
-
-
 /*------------------------------------*\
     $MOBILE
 \*------------------------------------*/
@@ -308,7 +280,6 @@ Copyright (c) 2012 Dan Eden
     .avatar,
     .content {
         float: none;
-        
     }
 
     .avatar img {
