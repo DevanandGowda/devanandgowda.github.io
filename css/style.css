@@ -122,14 +122,25 @@ main {
             }
             .linkedin {
                 background-image: url(../img/linkedin.png);
-                width: 20px;
-                height: 17px;
+                width: 21px;
+                height: 19px;
             }
             .github {
                 background-image: url(../img/github.png);
                 width: 21px;
                 height: 19px;
             }
+
+nav {
+    text-align: right;
+    margin: 3%;
+}
+    nav a{
+        padding: 3%;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
 
 /*------------------------------------*\
     $TYPOGRAPHY
